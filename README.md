@@ -1,3 +1,9 @@
+## Get started
+
+Clone this repository<br />
+npm install<br />
+npm start
+
 ## App features
 
 - Fetch most popular movies (provided by: The Movie Database)
