@@ -1,0 +1,26 @@
+ul {
+   padding: 0;
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   margin-top: 30px !important;
+   li {
+      margin: 0 10px;
+      a {
+         color: #fff;
+         border-bottom: 1px solid #fff;
+         &:hover {
+            color: #fff;
+            text-decoration: none;
+         }
+      }
+      .selected {
+         font-weight: bold;
+         color: #17a2b8;
+         border-bottom: 1px solid #17a2b8;
+         &:hover {
+            color: #17a2b8;
+         }
+      }
+   }
+}
